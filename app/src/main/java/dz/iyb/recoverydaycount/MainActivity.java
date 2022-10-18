@@ -67,7 +67,6 @@ public class MainActivity extends AppCompatActivity {
             if (StartDate != null) { //if date is found
 
                 days = DateOperator.CalculateDays(StartDate, DateOperator.getCurrentDate()); //calculate days between current date and quit date
-                days="90";// test
                 if (Integer.parseInt(days) == 90) {     //if challenge is completed
                     fragment = new CompletionFragment();
                     getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, fragment)
