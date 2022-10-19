@@ -6,6 +6,9 @@ UI experience is as simple as possible. User can START, STOP count.
 #Implemented materials
 
 IDE: Android Studio
+
 Programming Language: Java
+
 DataBase: SQliteDataBase
+
 Animation: Lottie Animation
